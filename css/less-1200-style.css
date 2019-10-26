@@ -1,0 +1,375 @@
+@media screen and (max-width: 1200px) {
+    .header__burger {
+        display: block;
+        margin-right: 40px;
+        margin-left: 100px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__content {
+        max-width: initial;
+    }
+
+    .category-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        margin-left: 30px;
+        flex: 1;
+    }
+
+    .header {
+        margin-top: 20px;
+    }
+
+    .header__phone {
+        margin-right: 0;
+    }
+
+    .category-menu {
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .category-menu__item {
+        margin: 0 30px 30px 30px;
+    }
+
+    .utp-1 {
+        height: 750px;
+        margin-top: 0;
+    }
+
+    .utp-1__image {
+        height: 395px;
+    }
+
+    .utp-1 h2 {
+        top: 163px;
+        left: 40px;
+        line-height: 58px;
+        letter-spacing: -0.04em;
+    }
+
+    .order-form-1 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 395px;
+        padding: 5px 40px;
+    }
+
+    .order-form-1 form {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .order-form-1 h3 {
+        padding: 20px 20px;
+        padding-bottom: 0;
+    }
+
+    .order-form-1__inputs {
+        padding: 10px 20px;
+        display: flex;
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .order-form-1__inputs__group {
+        width: 50%;
+    }
+
+    .order-form-1__buttons {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding-left: 16px;
+        padding-right: 0;
+    }
+
+    .order-form-1__or {
+        height: 29px;
+        font-size: 16px;
+        width: 180px;
+        padding-top: 2px;
+    }
+
+    .order-form-1__buttons .green-button,
+    .order-form-1__buttons .hole_button {
+        width: 308px;
+    }
+
+    .order-form-1__or:after {
+        right: 120px;
+        top: 13px;
+    }
+
+    .order-form-1__or:before {
+        left: 120px;
+        top: 13px;
+    }
+
+    .benefits {
+        width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .benefits .grey-line {
+        display: none;
+    }
+
+    .orange-header-root {
+        width: 100%;
+        margin-top: 26px;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .services__right-image,
+    .services__left_image {
+        height: 450px;
+        order: 1;
+        position: static;
+        background-size: cover !important;
+        background-position: center !important;
+
+        width: calc(100% - 172px);
+        margin: 0 86px;
+        margin-top: 12px;
+    }
+
+    .services__content {
+        order: 2;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    h3.orange-header {
+        left: -1051px;
+        padding-right: 22px;
+    }
+
+    .hole_button + .hole_button {
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .services .services__mobile__header {
+        display: block;
+        width: auto;
+        margin-left: 85px;
+        font-size: 48px;
+        font-weight: 300;
+    }
+
+    .services__content h2 {
+        display: none;
+    }
+
+    .services.services__left .services__content,
+    .services.services__right .services__content {
+        margin: 0 86px;
+        width: auto;
+    }
+
+    .button-items {
+        margin-top: 40px;
+    }
+
+    .services__content {
+        width: 100%;
+    }
+
+    .super_feature__items {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .super_feature__item {
+        margin-right: 40px;
+    }
+
+    .services + .services .services__mobile__header {
+        margin-top: 5px;
+    }
+
+    .services + .services {
+        margin-top: 0;
+    }
+
+    .hole_button:first-child {
+        margin-right: 5px;
+    }
+
+    .services__4 .services__content p {
+        padding-top: 26px;
+    }
+
+    .services__5 .button-items {
+        margin-top: 48px;
+    }
+
+    .services__5 .services__content p {
+        padding-top: 0;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .services__5 .services__content h4 {
+        margin-top: 10px;
+    }
+
+    .services__6 .services__items {
+        flex-wrap: wrap;
+    }
+
+    .services__6 .services__item {
+        width: 190px;
+    }
+
+    .services__6 .services__content h4 {
+        margin-top: 2px;
+    }
+
+    .our-work {
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    .our-work h3.orange-header {
+        left: -964px;
+    }
+
+    .work-items {
+        width: 100%;
+        margin-top: 121px;
+    }
+
+    .partners__image__wide {
+        display: none;
+    }
+
+    .offices {
+        margin-top: 18px;
+    }
+
+    .offices__map__wide {
+        display: none;
+    }
+
+    .partners__image__768 {
+        display: block;
+    }
+
+    .offices__map__768 {
+        display: block;
+    }
+
+    .partners {
+        margin-top: 3px;
+        width: 100%;
+    }
+
+    .partners h3.orange-header {
+        left: -1010px;
+    }
+
+    .partners img {
+        margin: 0 auto;
+        margin-top: 127px;
+    }
+
+    .call-master {
+        margin-top: 18px;
+    }
+
+    .call-master__form form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    .call-master h3.orange-header {
+        left: -714px;
+    }
+
+    .call-master .service-input {
+        width: 240px;
+    }
+
+    .call-master .phone-input {
+        max-width: 400px;
+        width: 100%;
+        margin-right: 8px;
+    }
+
+    .orange-button {
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+
+    .call-master__form .input-group,
+    .call-master__form .select-group {
+        margin-bottom: 10px;
+    }
+
+    .offices h3.orange-header {
+        left: -938px;
+    }
+
+    .offices__map {
+        padding-top: 122px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .footer__root {
+        width: 100%;
+    }
+
+    .footer__col-l {
+        display: none;
+    }
+
+    .footer__col-m {
+        display: flex;
+        width: 115px;
+    }
+
+    .footer__cols {
+        padding-left: 0;
+        justify-content: space-evenly;
+    }
+
+    .footer__logo {
+        position: relative;
+        left: 0;
+        padding-left: 40px;
+        padding-right: 77px;
+        line-height: 24px;
+    }
+
+    .footer__root a {
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+}

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/less-1200-style.css">
+    <link rel="stylesheet" href="css/less-768-style.css">
     <link rel="stylesheet" href="fonts/fonts.css">
 
     <meta name="theme-color" content="#fafafa">
@@ -27,21 +29,23 @@
 
 <main class="root">
     <header class="header">
-        <a class="header__logo" href="#">&nbsp;</a>
-        <div class="header__menu">
-            <a href="#" class="header__menu__item">Услуги</a>
-            <a href="#" class="header__menu__item">Наши работы</a>
-            <a href="#" class="header__menu__item">Партнеры</a>
-            <a href="#" class="header__menu__item">Вызов специалиста</a>
-            <a href="#" class="header__menu__item">Адреса офисов</a>
+        <div class="header__content">
+            <a class="header__logo" href="#"> </a>
+            <div class="header__menu">
+                <a href="#" class="header__menu__item">Услуги</a>
+                <a href="#" class="header__menu__item">Наши работы</a>
+                <a href="#" class="header__menu__item">Партнеры</a>
+                <a href="#" class="header__menu__item">Вызов специалиста</a>
+                <a href="#" class="header__menu__item">Адреса офисов</a>
+            </div>
+            <div class="header__phone"><a href="tel:+78125646405">+7&nbsp;812&nbsp;564 64 05</a></div>
+            <div class="header__burger"></div>
         </div>
-        <div class="header__phone"><a href="tel:+78125646405">+7 812 564 64 05</a></div>
     </header>
     <section class="category-menu">
         <div class="category-menu__item">
             <img class="category-menu__item___image" src="./img/1.png" alt="#" border="0" />
             <div class="category-menu__item___text">Загородное строительство</div>
-            <div class="category-menu__item___arrow"></div>
         </div>
         <div class="category-menu__item">
             <img class="category-menu__item___image" src="./img/2.png" alt="#" border="0" />
@@ -50,14 +54,6 @@
         <div class="category-menu__item">
             <img class="category-menu__item___image" src="./img/3.png" alt="#" border="0" />
             <div class="category-menu__item___text">Балконы<br />Лоджии</div>
-            <div class="category-menu__item___arrow"></div>
-
-            <div class="category-menu__submenu">
-                <a class="category-menu__submenu__item" href="#"><span>Отделка</span></a>
-                <a class="category-menu__submenu__item" href="#"><span>Утепление</span></a>
-                <a class="category-menu__submenu__item" href="#"><span>Электрика</span></a>
-                <a class="category-menu__submenu__item" href="#"><span>Теплый пол</span></a>
-            </div>
         </div>
         <div class="category-menu__item">
             <img class="category-menu__item___image" src="./img/4.png" alt="#" border="0" />
@@ -72,10 +68,12 @@
             <div class="category-menu__item___text">Серсивное<br />обслуживание</div>
         </div>
     </section>
+
     <section class="utp-1">
+        <div class="utp-1__image"></div>
         <h2>Окна ПВХ, утепление<br />
-            и остекление балконов<br />
-            от производителя</h2>
+            и&nbsp;остекление балконов<br />
+            от&nbsp;производителя</h2>
 
         <div class="order-form-1">
             <form>
@@ -84,20 +82,22 @@
                     для вызова специалиста</h3>
 
                 <div class="order-form-1__inputs">
-                    <div class="input-group">
-                        <input type="text" id="order-form-1__name" required="required">
-                        <label for="order-form-1__name">Имя</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id="order-form-1__phone" required="required">
-                        <label for="order-form-1__phone">Телефон</label>
-                    </div>
-                    <div class="select-group">
-                        <select id="order-form-1__service">
-                            <option>Жалюзи</option>
-                            <option>Жалюзи</option>
-                        </select>
-                        <label for="order-form-1__service">Тема запроса</label>
+                    <div class="order-form-1__inputs__group">
+                        <div class="input-group">
+                            <input type="text" id="order-form-1__name" required="required">
+                            <label for="order-form-1__name">Имя</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="order-form-1__phone" required="required">
+                            <label for="order-form-1__phone">Телефон</label>
+                        </div>
+                        <div class="select-group">
+                            <select id="order-form-1__service">
+                                <option>Жалюзи</option>
+                                <option>Жалюзи</option>
+                            </select>
+                            <label for="order-form-1__service">Тема запроса</label>
+                        </div>
                     </div>
                     <div class="order-form-1__buttons">
                         <button class="green-button">Вызвать специалиста</button>
@@ -108,6 +108,7 @@
             </form>
         </div>
     </section>
+
     <section class="benefits">
         <div class="benefits__item benefits_item__n1">
             <img src="./img/icon-1.svg" border="0">
@@ -124,153 +125,310 @@
             <span>Опытные<br />специалисты</span>
         </div>
     </section>
-    <section class="services">
+
+    <div class="orange-header-root">
         <h3 class="orange-header">Услуги</h3>
-        <div class="services__left">
-            <div class="grey-line grey-line-h2"></div>
+    </div>
+
+    <section class="services services__left services__1">
+        <h2 class="services__mobile__header">Загородное строительство</h2>
+        <div class="services__content">
             <h2>Загородное строительство</h2>
+            <div class="button-items">
+                <a href="#" class="hole_button">Терассы</a>
+                <a href="#" class="hole_button">Беседки</a>
+                <a href="#" class="hole_button">Веранды</a>
+                <a href="#" class="hole_button">Зимние сады</a>
+            </div>
             <p>
-                Утеплим веранду или зимний сад, построим беседку по вашему проекту.<br />
+                Утеплим веранду или зимний сад, построим беседку по&nbsp;вашему проекту.<br />
                 Индивидуальный подход, качественные материалы, гарантия.
             </p>
-            <h4>Примеры типовых беседок</h4>
+            <h4>Варианты беседок</h4>
 
             <section class="services__items">
-                <article class="services__item">
-                    <img class="services__item__image" src="./img/scheme1.png" border="0">
-                    <div class="services__item__description">
-                        Прямоугольная беседка со входом<br />
-                        с одной стороны и открываемым<br />
-                        секциям с москитными сетками.
-                    </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
-                </article>
-                <article class="services__item">
+                <article class="services__item services__item--w-300">
                     <img class="services__item__image" src="./img/sheme2.png" border="0">
                     <div class="services__item__description">
-                        Шестиугольная беседка с открыми<br />
-                        порталами и скатной крышей
+                        Деревянные беседки<br />изготавливаются из&nbsp;клееного,<br />сухого строганого бруса, доски
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+                <article class="services__item services__item--w-300">
+                    <img class="services__item__image" src="./img/scheme1.png" border="0">
+                    <div class="services__item__description">
+                        Металлические беседки на&nbsp;каркасе<br />
+                        из&nbsp;стальных профильных труб
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
             </section>
-            <a href="#" class="hole_button">Подробнее про загородное строительство</a>
         </div>
         <div class="services__right-image"></div>
     </section>
 
-    <section class="pvh_windows">
-        <div class="pvh_windows__left_image"></div>
-        <div class="pvh_windows__right">
-            <div class="grey-line grey-line-h2"></div>
+    <section class="services services__right services__2">
+        <h2 class="services__mobile__header">Окна ПВХ</h2>
+        <div class="services__left_image"></div>
+        <div class="services__content">
             <h2>Окна ПВХ</h2>
+            <div class="button-items">
+                <a href="#" class="hole_button">Классика</a>
+                <a href="#" class="hole_button">Панорамные</a>
+                <a href="#" class="hole_button">Нестандартные окна</a>
+            </div>
             <p>
-                Изготавливаем и устанавливаем окна ПВХ<br />
-                любой конфигурации и самого высокого качества
+                Изготавливаем и&nbsp;устанавливаем окна ПВХ<br />
+                любой конфигурации и&nbsp;самого высокого качества.
             </p>
-            <h4>Примеры типовых окон</h4>
+            <h4>Варианты классических окон</h4>
+
             <section class="services__items">
-                <article class="services__item">
+                <article class="services__item services__item--w-200">
                     <img class="services__item__image" src="./img/w1.png" border="0">
                     <div class="services__item__description">
                         Одностворчатое<br />
                         окно глухое
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
-                <article class="services__item">
+                <article class="services__item services__item--w-200">
                     <img class="services__item__image" src="./img/w2.png" border="0">
                     <div class="services__item__description">
                         Двустворчатое окно<br />
-                        с одной открываемой<br />
+                        с&nbsp;одной открываемой<br />
                         секцией
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
-                <article class="services__item">
+                <article class="services__item services__item--w-200">
                     <img class="services__item__image" src="./img/w3.png" border="0">
                     <div class="services__item__description">
                         Трехстворчатое окно<br />
-                        с одной открываемой<br />
+                        с&nbsp;одной открываемой<br />
                         секцией
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
             </section>
-            <a href="#" class="hole_button">Подробнее про окна</a><a href="#" class="hole_button">Калькулятор окон</a>
         </div>
     </section>
 
-    <section class="services services-2">
-        <div class="services__left">
-            <div class="grey-line grey-line-h2"></div>
-            <h2>Балконы и лоджии</h2>
+    <section class="services services__left services__3">
+        <h2 class="services__mobile__header">Балконы и&nbsp;лоджии</h2>
+        <div class="services__content">
+            <h2>Балконы и&nbsp;лоджии</h2>
+            <div class="button-items">
+                <a href="#" class="hole_button">Остекление</a>
+                <a href="#" class="hole_button">Утепление</a>
+                <a href="#" class="hole_button">Отделка</a>
+                <a href="#" class="hole_button">Электрика</a>
+            </div>
             <p>
-                Остекление и утеплеление балконов и лоджий любой сложности под ключ.<br />
+                Остекление и&nbsp;утеплеление балконов и&nbsp;лоджий любой сложности под ключ.<br />
                 Наши решения позволяют расширить полезуню площадь жилья.
             </p>
-            <h4>Примеры типовых балконов и лоджий</h4>
+            <h4>Варианты остекления балконов и&nbsp;лоджий</h4>
 
             <section class="services__items">
                 <article class="services__item">
-                    <img class="services__item__image" src="./img/ww1.png" border="0">
+                    <img class="services__item__image" src="./img/w-b1.png" border="0">
                     <div class="services__item__description">
-                        Оконно-дверной блок<br />
-                        с глухой секцией
+                        Холодное алюминевое остекление<br /> обеспечивает защиту от&nbsp;осадков<br /> и&nbsp;пыли
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
                 <article class="services__item">
                     <img class="services__item__image" src="./img/ww2.png" border="0">
                     <div class="services__item__description">
-                        Четырехсекционно окно из<br />
-                        алюминий с раздвижными секциями
+                        Теплое распашное остекление<br />
+                        из&nbsp;пластикового профиля сохраняет<br />
+                        тепло и&nbsp;обеспечивает звукоизоляцию
                     </div>
-                    <div class="services__item__price">от 3 000 ₽</div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
                 </article>
             </section>
-            <a href="#" class="hole_button">Подробнее про балконы и лоджии</a>
         </div>
         <div class="services__right-image"></div>
+    </section>
+
+    <section class="services services__right services__4">
+        <h2 class="services__mobile__header">Входные двери</h2>
+        <div class="services__left_image"></div>
+        <div class="services__content">
+            <h2>Входные двери</h2>
+            <p>
+                Входные двери торговой марки ULTRA DВЕРИ&nbsp;&mdash; то, с&nbsp;чем начинается дом<br />
+                или квартира. Они надежны, бесопасны и&nbsp;эстетичны.
+            </p>
+            <section class="super_feature__items">
+                <article class="super_feature__item">
+                    <div class="super_feature__header">
+                        <img class="super_feature__item__image" src="./img/d1.png" border="0">
+                        <div class="super_feature__header__text">Качество</div>
+                    </div>
+                    <div class="super_feature__item__description">
+                        Производство с&nbsp;использованием только высококачественной легированной стали
+                    </div>
+                </article>
+
+                <article class="super_feature__item">
+                    <div class="super_feature__header">
+                        <img class="super_feature__item__image" src="./img/d2.png" border="0">
+                        <div class="super_feature__header__text">Производство</div>
+                    </div>
+                    <div class="super_feature__item__description">
+                        Точность геометрии гарантируется полностью автоматизированным производством
+                    </div>
+                </article>
+
+                <article class="super_feature__item">
+                    <div class="super_feature__header">
+                        <img class="super_feature__item__image" src="./img/d3.png" border="0">
+                        <div class="super_feature__header__text">Разработка</div>
+                    </div>
+                    <div class="super_feature__item__description">
+                        Двери немецкого качества, разработанные специально для потребителя из&nbsp;России
+                    </div>
+                </article>
+
+                <article class="super_feature__item">
+                    <div class="super_feature__header">
+                        <img class="super_feature__item__image" src="./img/d4.png" border="0">
+                        <div class="super_feature__header__text">Безопасность</div>
+                    </div>
+                    <div class="super_feature__item__description">
+                        Многоточечные системы запирания, сертифицированные замковые системы&nbsp;&mdash; залог
+                        безопасности
+                    </div>
+                </article>
+            </section>
+        </div>
+    </section>
+
+    <section class="services services__left services__5">
+        <h2 class="services__mobile__header">Жалюзи</h2>
+        <div class="services__content">
+            <h2>Жалюзи</h2>
+            <div class="button-items">
+                <a href="#" class="hole_button">Плиссе</a>
+                <a href="#" class="hole_button">Рулонные</a>
+                <a href="#" class="hole_button">Зебра</a>
+                <a href="#" class="hole_button">Мираж</a>
+                <a href="#" class="hole_button">Горизонтальные</a>
+                <a href="#" class="hole_button">Вертикальные</a>
+            </div>
+            <p>
+                Иногда жалюзи это не&nbsp;просто украшение, но&nbsp;и&nbsp;защита от&nbsp;яркого<br />
+                солнечного света в&nbsp;вашей квартире или офисе.
+            </p>
+            <h4>Варианты жалюзи</h4>
+
+            <section class="services__items">
+                <article class="services__item">
+                    <img class="services__item__image" src="./img/j1.png" border="0">
+                    <div class="services__item__description">
+                        Горизонтальные для установки<br />
+                        снаружи/внутри проемов
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+                <article class="services__item">
+                    <img class="services__item__image" src="./img/j2.png" border="0">
+                    <div class="services__item__description">
+                        Вертикальная система два в&nbsp;одном
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+            </section>
+        </div>
+        <div class="services__right-image"></div>
+    </section>
+
+
+    <section class="services services__right services__6">
+        <h2 class="services__mobile__header">Сервисное обслуживание</h2>
+        <div class="services__left_image"></div>
+        <div class="services__content">
+            <h2>Сервисное обслуживание</h2>
+            <div class="button-items">
+                <a href="#" class="hole_button">Регулировка и&nbsp;ремонт фурнитуры</a>
+                <a href="#" class="hole_button">Устранение промерзания</a>
+                <a href="#" class="hole_button">Замена уплотнительных резинок</a>
+                <a href="#" class="hole_button">Замена стеклопакета</a>
+                <a href="#" class="hole_button">Установка подоконников</a>
+                <a href="#" class="hole_button">Прорезание новой створки</a>
+                <a href="#" class="hole_button">Переустановка окна</a>
+                <a href="#" class="hole_button">Ремонт входных дверей</a>
+            </div>
+            <h4>Примеры типовых услуг</h4>
+
+            <section class="services__items">
+                <article class="services__item">
+                    <img class="services__item__image" src="./img/sw-1.png" border="0">
+                    <div class="services__item__description">
+                        Ремонт фурнитуры
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+                <article class="services__item">
+                    <img class="services__item__image" src="./img/sw2.png" border="0">
+                    <div class="services__item__description">
+                        Установка<br />подоконников
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+                <article class="services__item">
+                    <img class="services__item__image" src="./img/sw3.png" border="0">
+                    <div class="services__item__description">
+                        Замена стеклопакета
+                    </div>
+                    <div class="services__item__price">от&nbsp;3&nbsp;000&nbsp;₽</div>
+                </article>
+            </section>
+        </div>
     </section>
 
     <section class="our-work">
         <h3 class="orange-header">Наши работы</h3>
         <div class="work-items">
             <article class="work-item">
-                <img class="work-item__image" src="./img/work1.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl1.png" alt="">
+                <div class="work-item__text">Металлический каркас, сборка, обшивка крыши, установка кованных перил</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/work2.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl2.png" alt="">
+                <div class="work-item__text">Возведение террасы на винтовых сваях</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/work3.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl3.png" alt="">
+                <div class="work-item__text">Строительство деревянной терассы</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/work4.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl4.png" alt="">
+                <div class="work-item__text">Остекление и утепление (ламинат)</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/work5.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl5.png" alt="">
+                <div class="work-item__text">Остекление и отделка (вагонка)</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/work6.png" alt="">
-                <div class="work-item__text">Остекление балкона в районе<br />м. Адмиралтейская</div>
+                <img class="work-item__image" src="./img/sl6.png" alt="">
+                <div class="work-item__text">Терраса в Гатчине (пол из палубной доски)</div>
             </article>
         </div>
     </section>
 
     <section class="partners">
         <h3 class="orange-header">Партнеры</h3>
-        <img src="./img/partners.png" alt="Партнеры" class="partners__image">
+        <img src="./img/partners.png" alt="Партнеры" class="partners__image partners__image__wide">
+        <img src="./img/logo-p-768.png" alt="Партнеры" class="partners__image partners__image__768">
+        <img src="./img/logo-p-320.png" alt="Партнеры" class="partners__image partners__image__320">
     </section>
 
     <section class="call-master">
-        <h3 class="orange-header">Вызвать специалиста бесплатно</h3>
+        <h3 class="orange-header orange-header--wide">Вызвать специалиста бесплатно</h3>
+        <h3 class="orange-header orange-header--320">Вызвать специалиста<br />бесплатно</h3>
         <div class="call-master__form">
             <form>
                 <div class="input-group name-input">
@@ -296,7 +454,9 @@
 
     <section class="offices">
         <h3 class="orange-header">Адреса офисов</h3>
-        <img class="offices__map" src="./img/map.png">
+        <img src="./img/map.png" alt="Адреса офисов" class="offices__map offices__map__wide">
+        <img src="./img/map-768.png" alt="Адреса офисов" class="offices__map offices__map__768">
+        <img src="./img/map-320.png" alt="Адреса офисов" class="offices__map offices__map__320">
     </section>
 
     <footer>
@@ -305,27 +465,31 @@
                 <img src="./img/grey-logo.png" alt="well glass">
             </a>
             <div class="footer__cols">
-                <div class="footer__col">
-                    <a href="#" class="footer__col__header">Загородное строительство</a>
-                    <a href="#" class="footer__col__item">Террасы</a>
-                    <a href="#" class="footer__col__item">Беседки</a>
-                    <a href="#" class="footer__col__item">Зимние сады</a>
-                    <a href="#" class="footer__col__item">Остекление домов</a>
+                <div class="footer__col footer__col-l">
+                    <a href="#" class="footer__col__item">Загородное строительство</a>
+                    <a href="#" class="footer__col__item">Балконы и лоджии</a>
                 </div>
-                <div class="footer__col">
-                    <a href="#" class="footer__col__header">Балконы / Лоджии</a>
-                    <a href="#" class="footer__col__item">Отделка</a>
-                    <a href="#" class="footer__col__item">Утепление</a>
-                    <a href="#" class="footer__col__item">Электрика</a>
-                    <a href="#" class="footer__col__item">Теплый пол</a>
+                <div class="footer__col footer__col-l">
+                    <a href="#" class="footer__col__item">Окна ПВХ</a>
+                    <a href="#" class="footer__col__item">Входные двери</a>
                 </div>
-                <div class="footer__col">
-                    <a href="#" class="footer__col__header">Окна</a>
-                    <a href="#" class="footer__col__header">Входные двери</a>
+                <div class="footer__col footer__col-l">
                     <a href="#" class="footer__col__header">Жалюзи</a>
                     <a href="#" class="footer__col__header">Сервисное обслуживание</a>
                 </div>
-                <div class="footer__social">
+
+                <div class="footer__col footer__col-m">
+                    <a href="#" class="footer__col__item">Загородное строительство</a>
+                    <a href="#" class="footer__col__item">Балконы и лоджии</a>
+                    <a href="#" class="footer__col__item">Окна ПВХ</a>
+                </div>
+                <div class="footer__col footer__col-m">
+                    <a href="#" class="footer__col__item">Входные двери</a>
+                    <a href="#" class="footer__col__header">Жалюзи</a>
+                    <a href="#" class="footer__col__header">Сервисное обслуживание</a>
+                </div>
+
+                <div class="footer__social footer__social--wide">
                     <div class="footer__social__icons">
                         <a href="#"><img src="./img/inst.svg" alt="instagram"></a>
                         <a href="#"><img src="./img/vk.svg" alt="vkontakte"></a>
@@ -333,6 +497,15 @@
                     </div>
                     <div class="footer_copy">&copy; Well Glass, 2019, Все права защищены</div>
                 </div>
+            </div>
+
+            <div class="footer__social footer__social--m">
+                <div class="footer__social__icons">
+                    <a href="#"><img src="./img/inst.svg" alt="instagram"></a>
+                    <a href="#"><img src="./img/vk.svg" alt="vkontakte"></a>
+                    <a href="#"><img src="./img/fb.svg" alt="facebook"></a>
+                </div>
+                <div class="footer_copy">&copy; Well Glass, 2019, Все права защищены</div>
             </div>
         </div>
     </footer>
