@@ -2,167 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89435337-7c84-4710-8999-8d8d40dc2720" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/img/builing1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/door.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/fikus_MB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/jal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/1-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/1-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/1-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/2-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/2-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/2-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/3-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/3-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/3-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/3-w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/4-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/4-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/4-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/5-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/5-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/5-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/6-m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/6-s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/main/6-w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/man-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sl9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-big1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/less-1200-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/less-1200-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/less-768-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/less-768-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/builing1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/door-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/door-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/door.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fikus_MB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/j1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/j1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/jal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/logo-p-320.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/logo-p-320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/man-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/map-768.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/map-768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/p1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/p1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/partners.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/partners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sheme2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sheme2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sl6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sw1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sw1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sw2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sw2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sw3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sw3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/utp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/utp1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/w-big1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/w-big1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/w1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/w1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/w2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/w2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/w3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/w3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/work1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/work1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ww1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/ww1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ww2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/ww2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-down-select.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/arrow-down-select.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/arrow-up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/builing1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/builing1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/burger.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/d1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/d2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/d3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/d4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/door-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/door-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/door.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/door.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fikus_MB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fikus_MB.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grey-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/grey-line.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grey-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/grey-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/inst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/inst.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/j1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/j1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/j2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/j2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/jal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-p-320.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-p-320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-p-768.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-p-768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/1-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/1-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/1-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/2-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/2-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/2-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/3-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/3-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/3-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/4-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/4-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/4-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/5-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/5-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/5-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/6-m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/6-s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/6-w.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/man-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/man-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map-320.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/map-320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map-768.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/map-768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/p1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/p1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/p2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partners.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/scheme1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/scheme1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sheme2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sheme2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sw-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sw1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sw2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sw3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/utp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/utp1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-b1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/w-b1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-big1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/w-big1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-big1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/w-big1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/w1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/w2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/w3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/work6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ww1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ww1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ww2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ww2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/less-1200-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/less-1200-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/less-768-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/less-768-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,29 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
+            <state relative-caret-position="278">
+              <caret line="343" column="18" selection-end-line="974" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/css/main.css">
+      <file leaf-file-name="less-1200-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less-1200-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1491" selection-start-column="1491" selection-end-column="1491" />
+            <state relative-caret-position="253">
+              <caret line="357" column="27" selection-end-line="396" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less-768-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less-768-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="626" column="21" lean-forward="true" selection-end-line="668" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -203,8 +51,8 @@
       <file leaf-file-name="less-1200-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/css/less-1200-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6006" selection-start-column="6006" selection-end-column="6006" />
+            <state relative-caret-position="860">
+              <caret line="396" column="1" selection-start-line="396" selection-start-column="1" selection-end-line="396" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -212,35 +60,17 @@
       <file leaf-file-name="less-768-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/css/less-768-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9172" selection-start-column="9172" selection-end-column="9172" />
+            <state relative-caret-position="860">
+              <caret line="668" column="1" selection-start-line="668" selection-start-column="1" selection-end-line="668" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="171" selection-start-line="2" selection-start-column="171" selection-end-line="2" selection-end-column="171" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17992" selection-start-column="17992" selection-end-column="17992" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1947" selection-start-column="1947" selection-end-column="1947" />
+            <state relative-caret-position="860">
+              <caret line="974" column="1" selection-start-line="974" selection-start-column="1" selection-end-line="974" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -249,10 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.super_feature__item</find>
-      <find>.sw</find>
-      <find>work-ite</find>
-      <find>call</find>
       <find>.work-items</find>
       <find>super_feature__item__description</find>
       <find>.call-master .service-input</find>
@@ -279,6 +105,10 @@
       <find>-m.jpg</find>
       <find>-w.jpg</find>
       <find>select</find>
+      <find>.services__1 .services__right-image</find>
+      <find>.services__3 .services__right-image</find>
+      <find>left_image</find>
+      <find>.services__2 .services__left_image</find>
     </findStrings>
     <replaceStrings>
       <replace>category-menu</replace>
@@ -288,6 +118,11 @@
       <replace>/img/sl</replace>
       <replace>-m.jpg</replace>
       <replace>-s.jpg</replace>
+      <replace>.services__1 .services__left-image</replace>
+      <replace>.services__2 .services__right_image</replace>
+      <replace>.services__2 .services__right-image</replace>
+      <replace>.services__3 .services__left-image</replace>
+      <replace>left-image</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -302,16 +137,16 @@
         <option value="$PROJECT_DIR$/css/less-1440-style.css" />
         <option value="$PROJECT_DIR$/css/less-12000-style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/less-1200-style.css" />
-        <option value="$PROJECT_DIR$/css/less-768-style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/build/css/style.css" />
         <option value="$PROJECT_DIR$/build/css/normalize.css" />
         <option value="$PROJECT_DIR$/build/css/main.css" />
-        <option value="$PROJECT_DIR$/build/css/less-1200-style.css" />
-        <option value="$PROJECT_DIR$/build/css/less-768-style.css" />
         <option value="$PROJECT_DIR$/build/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/less-1200-style.css" />
+        <option value="$PROJECT_DIR$/css/less-768-style.css" />
+        <option value="$PROJECT_DIR$/build/css/less-768-style.css" />
+        <option value="$PROJECT_DIR$/build/css/less-1200-style.css" />
+        <option value="$PROJECT_DIR$/build/css/style.css" />
       </list>
     </option>
   </component>
@@ -324,7 +159,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="493" />
     <option name="y" value="23" />
     <option name="width" value="1620" />
@@ -336,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,13 +192,13 @@
             <path>
               <item name="well-glass" type="b2602c69:ProjectViewProjectNode" />
               <item name="well-glass" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,30 +241,31 @@
       <workItem from="1572012666916" duration="30337000" />
       <workItem from="1572159502592" duration="307000" />
       <workItem from="1572160844062" duration="243000" />
-      <workItem from="1572277831399" duration="6288000" />
+      <workItem from="1572277831399" duration="6522000" />
+      <workItem from="1572285662755" duration="1011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55452000" />
+    <option name="totallyTimeSpent" value="56697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="493" y="23" width="1620" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1774398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17277168" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3451613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -446,7 +281,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Rectangle.svg" />
     <entry file="file://$PROJECT_DIR$/img/Path.svg" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -583,48 +417,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/jal.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/less-1200-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/less-768-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="514" column="24" selection-start-line="514" selection-start-column="18" selection-end-line="514" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17992" selection-start-column="17992" selection-end-column="17992" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/jal.png" />
     <entry file="file://$PROJECT_DIR$/build/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1947" selection-start-column="1947" selection-end-column="1947" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="171" selection-start-line="2" selection-start-column="171" selection-end-line="2" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -635,24 +446,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/less-1200-style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6006" selection-start-column="6006" selection-end-column="6006" />
+        <state relative-caret-position="763">
+          <caret line="402" column="26" lean-forward="true" selection-start-line="402" selection-start-column="26" selection-end-line="402" selection-end-column="26" />
+          <folding>
+            <element signature="e#7640#7646#0" expanded="true" />
+            <element signature="e#8136#8142#0" expanded="true" />
+            <element signature="e#8633#8639#0" expanded="true" />
+            <element signature="e#10181#10187#0" expanded="true" />
+            <element signature="e#12579#12585#0" expanded="true" />
+            <element signature="e#12589#12595#0" expanded="true" />
+            <element signature="e#18741#18747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less-768-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="626" column="21" lean-forward="true" selection-end-line="668" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/css/less-768-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9172" selection-start-column="9172" selection-end-column="9172" />
+        <state relative-caret-position="860">
+          <caret line="668" column="1" selection-start-line="668" selection-start-column="1" selection-end-line="668" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/less-1200-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="171" selection-start-line="2" selection-start-column="171" selection-end-line="2" selection-end-column="171" />
+        <state relative-caret-position="253">
+          <caret line="357" column="27" selection-end-line="396" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/less-1200-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="396" column="1" selection-start-line="396" selection-start-column="1" selection-end-line="396" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="343" column="18" selection-end-line="974" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="974" column="1" selection-start-line="974" selection-start-column="1" selection-end-line="974" selection-end-column="1" />
         </state>
       </provider>
     </entry>

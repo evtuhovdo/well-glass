@@ -208,7 +208,7 @@
         margin-bottom: 0;
     }
 
-    .services__right-image, .services__left_image {
+    .services__right-image, .services__left-image {
         width: 290px;
         margin: 6px auto;
     }
@@ -273,7 +273,7 @@
         height: auto;
     }
 
-    .services__right-image, .services__left_image {
+    .services__right-image, .services__left-image {
         height: 360px;
     }
 
@@ -647,15 +647,15 @@
         background: url('./../img/main/1-s.jpg') no-repeat top left;
     }
 
-    .services__2 .services__left_image {
-        background: url('./../img/main/2-s.jpg') no-repeat top right;
+    .services__2 .services__right-image {
+        background: url('./../img/main/2-s.jpg') no-repeat top left;
     }
 
-    .services__3 .services__right-image {
-        background: url('./../img/main/3-s.jpg') no-repeat top left;
+    .services__3 .services__left-image {
+        background: url('./../img/main/3-s.jpg') no-repeat top right;
     }
 
-    .services__4 .services__left_image {
+    .services__4 .services__left-image {
         background: url('./../img/main/4-s.jpg') no-repeat top right;
     }
 
@@ -663,7 +663,7 @@
         background: url('./../img/main/5-s.jpg') no-repeat top left;
     }
 
-    .services__6 .services__left_image {
+    .services__6 .services__left-image {
         background: url('./../img/main/6-s.jpg') no-repeat top right;
     }
 }

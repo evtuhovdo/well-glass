@@ -336,15 +336,15 @@ h3.orange-header {
     background: url('./../img/main/1-w.jpg') no-repeat top left;
 }
 
-.services__2 .services__left_image {
-    background: url('./../img/main/2-w.jpg') no-repeat top right;
+.services__2 .services__right-image {
+    background: url('./../img/main/2-w.jpg') no-repeat top left;
 }
 
-.services__3 .services__right-image {
-    background: url('./../img/main/3-w.jpg') no-repeat top left;
+.services__3 .services__left-image {
+    background: url('./../img/main/3-w.jpg') no-repeat top right;
 }
 
-.services__4 .services__left_image {
+.services__4 .services__left-image {
     background: url('./../img/main/4-w.jpg') no-repeat top right;
 }
 
@@ -352,7 +352,7 @@ h3.orange-header {
     background: url('./../img/main/5-w.jpg') no-repeat top left;
 }
 
-.services__6 .services__left_image {
+.services__6 .services__left-image {
     background: url('./../img/main/6-w.jpg') no-repeat top right;
 }
 
@@ -369,7 +369,7 @@ h3.orange-header {
     width: 620px;
 }
 
-.services__left_image {
+.services__left-image {
     width: 380px;
     height: 500px;
     border-bottom: 1px solid #D8D8D8;
