@@ -37,7 +37,15 @@
     }
 
     .category-menu__item {
-        margin: 0 30px 30px 30px;
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .category-menu__item__container {
+        width: calc(100% / 3 - 30px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .utp-1 {
@@ -139,14 +147,14 @@
 
     .services__right-image,
     .services__left_image {
-        height: 450px;
+        height: 460px;
         order: 1;
         position: static;
-        background-size: cover !important;
-        background-position: center !important;
+        /*background-size: cover !important;*/
+        /*background-position: center !important;*/
 
-        width: calc(100% - 172px);
-        margin: 0 86px;
+        width: 606px;
+        margin: 0 auto;
         margin-top: 12px;
     }
 
@@ -267,18 +275,6 @@
         margin-top: 18px;
     }
 
-    .offices__map__wide {
-        display: none;
-    }
-
-    .partners__image__768 {
-        display: block;
-    }
-
-    .offices__map__768 {
-        display: block;
-    }
-
     .partners {
         margin-top: 3px;
         width: 100%;
@@ -333,8 +329,10 @@
         left: -938px;
     }
 
-    .offices__map {
-        padding-top: 122px;
+    #map {
+        width: 768px;
+        height: 288px;
+        margin-top: 122px;
     }
 
     footer {
@@ -371,5 +369,29 @@
     .footer__root a {
         line-height: 15px;
         padding-bottom: 15px;
+    }
+
+    .services__1 .services__right-image {
+        background: url('./../img/main/1-m.jpg') no-repeat top left;
+    }
+
+    .services__2 .services__left_image {
+        background: url('./../img/main/2-m.jpg') no-repeat top right;
+    }
+
+    .services__3 .services__right-image {
+        background: url('./../img/main/3-m.jpg') no-repeat top left;
+    }
+
+    .services__4 .services__left_image {
+        background: url('./../img/main/4-m.jpg') no-repeat top right;
+    }
+
+    .services__5 .services__right-image {
+        background: url('./../img/main/5-m.jpg') no-repeat top left;
+    }
+
+    .services__6 .services__left_image {
+        background: url('./../img/main/6-m.jpg') no-repeat top right;
     }
 }

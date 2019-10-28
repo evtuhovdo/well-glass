@@ -32,40 +32,52 @@
         <div class="header__content">
             <a class="header__logo" href="#"> </a>
             <div class="header__menu">
-                <a href="#" class="header__menu__item">Услуги</a>
-                <a href="#" class="header__menu__item">Наши работы</a>
-                <a href="#" class="header__menu__item">Партнеры</a>
-                <a href="#" class="header__menu__item">Вызов специалиста</a>
-                <a href="#" class="header__menu__item">Адреса офисов</a>
+                <a href="#services" class="header__menu__item">Услуги</a>
+                <a href="#our-work" class="header__menu__item">Наши работы</a>
+                <a href="#partners" class="header__menu__item">Партнеры</a>
+                <a href="#order-form-1" class="header__menu__item">Вызов специалиста</a>
+                <a href="#offices" class="header__menu__item">Адреса офисов</a>
             </div>
             <div class="header__phone"><a href="tel:+78125646405">+7&nbsp;812&nbsp;564 64 05</a></div>
             <div class="header__burger"></div>
         </div>
     </header>
     <section class="category-menu">
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/1.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Загородное строительство</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#suburban_construction">
+                <img class="category-menu__item___image" src="./img/1.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Загородное строительство</div>
+            </a>
         </div>
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/2.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Окна</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#windows">
+                <img class="category-menu__item___image" src="./img/2.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Окна</div>
+            </a>
         </div>
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/3.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Балконы<br />Лоджии</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#balcony">
+                <img class="category-menu__item___image" src="./img/3.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Балконы<br />Лоджии</div>
+            </a>
         </div>
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/4.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Входные<br />двери</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#doors">
+                <img class="category-menu__item___image" src="./img/4.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Входные<br />двери</div>
+            </a>
         </div>
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/5.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Жалюзи</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#jal">
+                <img class="category-menu__item___image" src="./img/5.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Жалюзи</div>
+            </a>
         </div>
-        <div class="category-menu__item">
-            <img class="category-menu__item___image" src="./img/6.png" alt="#" border="0" />
-            <div class="category-menu__item___text">Серсивное<br />обслуживание</div>
+        <div class="category-menu__item__container">
+            <a class="category-menu__item" href="#customer_service">
+                <img class="category-menu__item___image" src="./img/6.png" alt="#" border="0" />
+                <div class="category-menu__item___text">Серсивное<br />обслуживание</div>
+            </a>
         </div>
     </section>
 
@@ -75,7 +87,7 @@
             и&nbsp;остекление балконов<br />
             от&nbsp;производителя</h2>
 
-        <div class="order-form-1">
+        <div class="order-form-1" id="order-form-1">
             <form>
                 <h3>Заполните форму<br />
 
@@ -93,8 +105,12 @@
                         </div>
                         <div class="select-group">
                             <select id="order-form-1__service">
+                                <option>Загородное строительство</option>
+                                <option>Балконы и лоджии</option>
+                                <option>Окна ПВХ</option>
+                                <option>Входные двери</option>
                                 <option>Жалюзи</option>
-                                <option>Жалюзи</option>
+                                <option>Сервисное обслуживание</option>
                             </select>
                             <label for="order-form-1__service">Тема запроса</label>
                         </div>
@@ -126,11 +142,11 @@
         </div>
     </section>
 
-    <div class="orange-header-root">
+    <div class="orange-header-root" id="services">
         <h3 class="orange-header">Услуги</h3>
     </div>
 
-    <section class="services services__left services__1">
+    <section class="services services__left services__1" id="suburban_construction">
         <h2 class="services__mobile__header">Загородное строительство</h2>
         <div class="services__content">
             <h2>Загородное строительство</h2>
@@ -167,7 +183,7 @@
         <div class="services__right-image"></div>
     </section>
 
-    <section class="services services__right services__2">
+    <section class="services services__right services__2" id="windows">
         <h2 class="services__mobile__header">Окна ПВХ</h2>
         <div class="services__left_image"></div>
         <div class="services__content">
@@ -214,7 +230,7 @@
         </div>
     </section>
 
-    <section class="services services__left services__3">
+    <section class="services services__left services__3" id="balcony">
         <h2 class="services__mobile__header">Балконы и&nbsp;лоджии</h2>
         <div class="services__content">
             <h2>Балконы и&nbsp;лоджии</h2>
@@ -252,7 +268,7 @@
         <div class="services__right-image"></div>
     </section>
 
-    <section class="services services__right services__4">
+    <section class="services services__right services__4" id="doors">
         <h2 class="services__mobile__header">Входные двери</h2>
         <div class="services__left_image"></div>
         <div class="services__content">
@@ -306,7 +322,7 @@
         </div>
     </section>
 
-    <section class="services services__left services__5">
+    <section class="services services__left services__5" id="jal">
         <h2 class="services__mobile__header">Жалюзи</h2>
         <div class="services__content">
             <h2>Жалюзи</h2>
@@ -346,7 +362,7 @@
     </section>
 
 
-    <section class="services services__right services__6">
+    <section class="services services__right services__6" id="customer_service">
         <h2 class="services__mobile__header">Сервисное обслуживание</h2>
         <div class="services__left_image"></div>
         <div class="services__content">
@@ -389,37 +405,53 @@
         </div>
     </section>
 
-    <section class="our-work">
+    <section class="our-work" id="our-work">
         <h3 class="orange-header">Наши работы</h3>
         <div class="work-items">
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl1.png" alt="">
+                <img class="work-item__image" src="./img/sl1.jpg" alt="">
                 <div class="work-item__text">Металлический каркас, сборка, обшивка крыши, установка кованных перил</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl2.png" alt="">
+                <img class="work-item__image" src="./img/sl2.jpg" alt="">
                 <div class="work-item__text">Возведение террасы на винтовых сваях</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl3.png" alt="">
+                <img class="work-item__image" src="./img/sl3.jpg" alt="">
                 <div class="work-item__text">Строительство деревянной терассы</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl4.png" alt="">
+                <img class="work-item__image" src="./img/sl4.jpg" alt="">
                 <div class="work-item__text">Остекление и утепление (ламинат)</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl5.png" alt="">
+                <img class="work-item__image" src="./img/sl5.jpg" alt="">
                 <div class="work-item__text">Остекление и отделка (вагонка)</div>
             </article>
             <article class="work-item">
-                <img class="work-item__image" src="./img/sl6.png" alt="">
+                <img class="work-item__image" src="./img/sl6.jpg" alt="">
                 <div class="work-item__text">Терраса в Гатчине (пол из палубной доски)</div>
+            </article>
+            <article class="work-item">
+                <img class="work-item__image" src="./img/sl7.jpg" alt="">
+                <div class="work-item__text">Замена холодного остекления на теплое, отделка и сборка шкафов</div>
+            </article>
+            <article class="work-item">
+                <img class="work-item__image" src="./img/sl8.jpg" alt="">
+                <div class="work-item__text">Остекление, утепление и отделка балкона (панели)</div>
+            </article>
+            <article class="work-item">
+                <img class="work-item__image" src="./img/sl9.jpg" alt="">
+                <div class="work-item__text">Остекление, утепление и отделка балкона (вагонка) и сборка шкафов</div>
+            </article>
+            <article class="work-item">
+                <img class="work-item__image" src="./img/sl10.jpg" alt="">
+                <div class="work-item__text">Теплица</div>
             </article>
         </div>
     </section>
 
-    <section class="partners">
+    <section class="partners" id="partners">
         <h3 class="orange-header">Партнеры</h3>
         <img src="./img/partners.png" alt="Партнеры" class="partners__image partners__image__wide">
         <img src="./img/logo-p-768.png" alt="Партнеры" class="partners__image partners__image__768">
@@ -441,8 +473,12 @@
                 </div>
                 <div class="select-group service-input">
                     <select id="call-master__service">
+                        <option>Загородное строительство</option>
+                        <option>Балконы и лоджии</option>
+                        <option>Окна ПВХ</option>
+                        <option>Входные двери</option>
                         <option>Жалюзи</option>
-                        <option>Жалюзи</option>
+                        <option>Сервисное обслуживание</option>
                     </select>
                     <label for="call-master__service">Тема запроса</label>
                 </div>
@@ -452,11 +488,9 @@
         </div>
     </section>
 
-    <section class="offices">
+    <section class="offices" id="offices">
         <h3 class="orange-header">Адреса офисов</h3>
-        <img src="./img/map.png" alt="Адреса офисов" class="offices__map offices__map__wide">
-        <img src="./img/map-768.png" alt="Адреса офисов" class="offices__map offices__map__768">
-        <img src="./img/map-320.png" alt="Адреса офисов" class="offices__map offices__map__320">
+        <div id="map"></div>
     </section>
 
     <footer>
@@ -466,27 +500,27 @@
             </a>
             <div class="footer__cols">
                 <div class="footer__col footer__col-l">
-                    <a href="#" class="footer__col__item">Загородное строительство</a>
-                    <a href="#" class="footer__col__item">Балконы и лоджии</a>
+                    <a href="#suburban_construction" class="footer__col__item">Загородное строительство</a>
+                    <a href="#balcony" class="footer__col__item">Балконы и лоджии</a>
                 </div>
                 <div class="footer__col footer__col-l">
-                    <a href="#" class="footer__col__item">Окна ПВХ</a>
-                    <a href="#" class="footer__col__item">Входные двери</a>
+                    <a href="#windows" class="footer__col__item">Окна ПВХ</a>
+                    <a href="#doors" class="footer__col__item">Входные двери</a>
                 </div>
                 <div class="footer__col footer__col-l">
-                    <a href="#" class="footer__col__header">Жалюзи</a>
-                    <a href="#" class="footer__col__header">Сервисное обслуживание</a>
+                    <a href="#jal" class="footer__col__header">Жалюзи</a>
+                    <a href="#customer_service" class="footer__col__header">Сервисное обслуживание</a>
                 </div>
 
                 <div class="footer__col footer__col-m">
-                    <a href="#" class="footer__col__item">Загородное строительство</a>
-                    <a href="#" class="footer__col__item">Балконы и лоджии</a>
-                    <a href="#" class="footer__col__item">Окна ПВХ</a>
+                    <a href="#suburban_construction" class="footer__col__item">Загородное строительство</a>
+                    <a href="#balcony" class="footer__col__item">Балконы и лоджии</a>
+                    <a href="#windows" class="footer__col__item">Окна ПВХ</a>
                 </div>
                 <div class="footer__col footer__col-m">
-                    <a href="#" class="footer__col__item">Входные двери</a>
-                    <a href="#" class="footer__col__header">Жалюзи</a>
-                    <a href="#" class="footer__col__header">Сервисное обслуживание</a>
+                    <a href="#doors" class="footer__col__item">Входные двери</a>
+                    <a href="#jal" class="footer__col__header">Жалюзи</a>
+                    <a href="#customer_service" class="footer__col__header">Сервисное обслуживание</a>
                 </div>
 
                 <div class="footer__social footer__social--wide">
@@ -514,9 +548,11 @@
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnsIRPtMnOXTF8EACuNPhFrb_ez_s47fI&callback=initMap"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>');</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

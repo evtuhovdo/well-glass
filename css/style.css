@@ -124,6 +124,7 @@ body, html {
     flex-direction: column;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .category-menu {
@@ -166,7 +167,7 @@ body, html {
     background: #FFFFFF;
     border: 1px solid #F0F0F0;
     box-sizing: border-box;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     position: absolute;
     top: 240px;
@@ -220,6 +221,7 @@ body, html {
     height: 520px;
     position: relative;
     margin-top: 20px;
+    max-width: 1440px;
 }
 
 .utp-1 h2 {
@@ -248,8 +250,7 @@ body, html {
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
-    padding: 8px 28px;
-    padding-bottom: 0;
+    padding: 8px 28px 0;
     margin-bottom: 0;
 }
 
@@ -332,27 +333,27 @@ h3.orange-header {
 }
 
 .services__1 .services__right-image {
-    background: url('./../img/builing1.png') no-repeat top left;
+    background: url('./../img/main/1-w.jpg') no-repeat top left;
 }
 
 .services__2 .services__left_image {
-    background: url('./../img/fikus_MB.png') no-repeat top right;
+    background: url('./../img/main/2-w.jpg') no-repeat top right;
 }
 
 .services__3 .services__right-image {
-    background: url('./../img/w-big1.png') no-repeat top left;
+    background: url('./../img/main/3-w.jpg') no-repeat top left;
 }
 
 .services__4 .services__left_image {
-    background: url('./../img/door.png') no-repeat top left;
+    background: url('./../img/main/4-w.jpg') no-repeat top right;
 }
 
 .services__5 .services__right-image {
-    background: url('./../img/jal.png') no-repeat top left;
+    background: url('./../img/main/5-w.jpg') no-repeat top left;
 }
 
 .services__6 .services__left_image {
-    background: url('./../img/man-1.png') no-repeat top left;
+    background: url('./../img/main/6-w.jpg') no-repeat top right;
 }
 
 .services__right-image {
@@ -542,8 +543,10 @@ h3.orange-header {
     left: -968px;
 }
 
-.offices__map {
-    padding-top: 112px;
+#map {
+    margin-top: 112px;
+    width: 1180px;
+    height: 442px;
 }
 
 footer {
@@ -828,7 +831,7 @@ input:focus ~ label, input:valid ~ label {
 }
 
 .services-3 .grey-line-h2 {
-    top: 0px;
+    top: 0;
 }
 
 .services-3 .services__left p {
@@ -960,11 +963,6 @@ input:focus ~ label, input:valid ~ label {
 }
 
 h3.orange-header.orange-header--320 {
-    display: none;
-}
-
-.offices__map__768,
-.offices__map__320 {
     display: none;
 }
 
