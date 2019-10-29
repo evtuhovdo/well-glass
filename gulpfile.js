@@ -1,18 +1,11 @@
-// 'use strict';
+'use strict';
 
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var autoprefixer = require('autoprefixer');
 var postcss = require('gulp-postcss');
 var clean = require('gulp-clean');
-
-// gulp.task('minify-css', () => {
-//   return gulp.src('public/css/*.css')
-//     // .pipe(cleanCSS())
-//     .pipe(gulp.dest('build'));
-// });
-
-// var browsers = { browsers: ['> 1%', 'last 20 versions', 'ie >= 9'], cascade: false };
+var del = require('del');
 
 gulp.task('clean', function () {
   del.sync(['./build/**']);

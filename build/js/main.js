@@ -11,7 +11,6 @@ function handleWindow() {
 
 handleWindow();
 
-// The resize isn't very necessary:
 window.addEventListener('resize', handleWindow);
 
 function initMap() {

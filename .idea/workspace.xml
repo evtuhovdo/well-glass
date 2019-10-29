@@ -2,170 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89435337-7c84-4710-8999-8d8d40dc2720" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/less-1200-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/less-1200-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/less-768-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/less-768-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeue-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/HelveticaNeue-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeue-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/HelveticaNeue-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeue.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/HelveticaNeue.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/builing1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/d3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/door-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/door-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/door.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fikus_MB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/inst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/inst.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/logo-p-320.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/logo-p-320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/main/3-w.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/main/3-w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/man-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/map-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/map-768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/p1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/p2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/partners.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/partners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sw1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sw1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/utp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/utp1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor/modernizr-3.7.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less-1200-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less-768-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeue.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-down-select.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/builing1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/d4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/door-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/door.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fikus_MB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grey-line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grey-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/inst.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/j1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/j2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-p-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-p-768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/1-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/2-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/3-w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/4-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/5-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main/6-w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/man-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map-768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/p1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/p2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partners.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/scheme1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sheme2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sl9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sw3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/utp1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-b1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-big1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w-big1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/w3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ww1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ww2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,19 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-              <folding>
-                <marker date="1572320900177" expanded="true" signature="293:310" ph="..." />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.webmanifest" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/site.webmanifest">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -201,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="44" />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -219,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -305,8 +152,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -341,6 +188,11 @@
             <path>
               <item name="well-glass" type="b2602c69:ProjectViewProjectNode" />
               <item name="well-glass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="well-glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="well-glass" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,12 +248,12 @@
       <workItem from="1572159502592" duration="307000" />
       <workItem from="1572160844062" duration="243000" />
       <workItem from="1572277831399" duration="6522000" />
-      <workItem from="1572285662755" duration="8895000" />
+      <workItem from="1572285662755" duration="9108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64581000" />
+    <option name="totallyTimeSpent" value="64794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -435,9 +287,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/img/grey-line.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/work2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -643,14 +492,14 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -661,20 +510,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <marker date="1572320900177" expanded="true" signature="293:310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site.webmanifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
