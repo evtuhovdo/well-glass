@@ -61,7 +61,7 @@ function sendOrder(name, _phone, service, form) {
     url: 'https://api.crmramex.ru/treatment/create?token=' + token,
     data: data,
   })
-  .success(function (msg) {
+  .done(function (msg) {
     alert('Заявка отправлена.');
   })
 }
