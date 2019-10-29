@@ -62,13 +62,8 @@ function sendOrder(name, _phone, service, form) {
     data: data,
   })
   .success(function (msg) {
-    alert('Data Saved: ' + msg);
+    alert('Заявка отправлена.');
   })
-  .always(function () {
-    // var button = _this.find('button[type=submit]');
-    // button.disable();
-    // button.text('Отправка заявки...');
-  });
 }
 
 $(function () {
@@ -122,10 +117,6 @@ $(function () {
 
     var serviceSelect = _this.find('select[name="service"]');
     var service = serviceSelect.val();
-
-    var button = _this.find('button[type=submit]');
-    button.disable();
-    button.text('Отправка заявки...');
 
     sendOrder(name, phone, service, _this);
     return false;
