@@ -65,9 +65,9 @@ function sendOrder(name, _phone, service, form) {
     alert('Data Saved: ' + msg);
   })
   .always(function () {
-    var button = _this.find('button[type=submit]');
-    button.disable();
-    button.text('Отправка заявки...');
+    // var button = _this.find('button[type=submit]');
+    // button.disable();
+    // button.text('Отправка заявки...');
   });
 }
 
