@@ -51,14 +51,14 @@ function sendOrder(name, _phone, service, form) {
   var data = {
     phone: phone,
     firstname: name,
-    office_id: 13942, // Офис (Мурино) http://api.crmramex.ru/treatment/offices?token=TOKEN
-    source_id: 33454, // http://api.crmramex.ru/treatment/sources?token=TOKEN
+    office_id: 13942, // Офис (Мурино) https://api.crmramex.ru/treatment/offices?token=TOKEN
+    source_id: 33454, // https://api.crmramex.ru/treatment/sources?token=TOKEN
     comment: 'Заявка с сайта. Интересуется ' + service + '.',
   };
 
   $.ajax({
     method: 'POST',
-    url: 'http://api.crmramex.ru/treatment/create?token=' + token,
+    url: 'https://api.crmramex.ru/treatment/create?token=' + token,
     data: data,
   })
   .success(function (msg) {
