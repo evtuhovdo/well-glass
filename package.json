@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "autoprefixer": "^9.7.0",
+    "gulp": "3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "postcss": "^7.0.21"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "make-css": "gulp make-css"
+  },
+  "browserslist": [
+    "last 20 version",
+    "> 1%",
+    "ie >= 9",
+    "not dead"
+  ]
+}
