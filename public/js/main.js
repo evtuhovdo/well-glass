@@ -60,10 +60,45 @@ function sendOrder(name, _phone, service, form) {
     method: 'POST',
     url: 'https://api.crmramex.ru/treatment/create?token=' + token,
     data: data,
-  })
-  .done(function (msg) {
-    alert('Заявка отправлена.');
-  })
+    beforeSend: function () {
+      $('body').css('top', -$(document).scrollTop()).addClass('no-scroll');
+      $('.modal').addClass('modal--visible');
+      $('.popup__content__pending').addClass('popup__content--visible');
+    },
+    success: function (msg) {
+      console.log('msg', msg);
+      if (msg && msg.code && msg.code === 200) {
+        // успех
+        $('.popup__content').removeClass('popup__content--visible');
+        $('.popup__content__success').addClass('popup__content--visible');
+      } else {
+        // неудача
+        var message = $('<span>Что-то пошло не&nbsp;так.<br />При отправке данных произошла ошибка. Пожалуйста, повторите отправку.</span>');
+        $('.popup__content').removeClass('popup__content--visible');
+        $('.popup__content__fail').addClass('popup__content--visible');
+
+        if (msg && msg.response && msg.response.errors) {
+          console.log('msg.response.errors', msg.response.errors);
+          Object.keys(msg.response.errors).forEach(function(key, index) {
+            console.log('key', key);
+            console.log('index', index);
+            msg.response.errors[key].map(function (value, key) {
+              console.log('key', key);
+              console.log('value', value);
+              message = $('<span>' + value +  '</span>');
+            });
+          });
+        }
+
+        $('.popup__content__fail .popup__text').html(message);
+      }
+    },
+    error: function () {
+      var message = $('<span>Что-то пошло не&nbsp;так.<br />При отправке данных произошла ошибка. Пожалуйста, повторите отправку.</span>');
+      $('.popup__content').removeClass('popup__content--visible');
+      $('.popup__content__fail').addClass('popup__content--visible');
+    }
+  });
 }
 
 $(function () {
@@ -129,5 +164,18 @@ $(function () {
   $('input').bind('invalid', function () {
     addErrorClass($(this));
     return false;
+  });
+
+  body.on('click', '.popup__cross', function () {
+    var top = Math.abs(parseInt($('body').css('top').replace('px', '')));
+    $('body').removeClass('no-scroll').css('top', 'initial');
+    $(document).scrollTop(top);
+
+    $('.modal').removeClass('modal--visible');
+    $('.popup__content').removeClass('popup__content--visible');
+  });
+
+  body.on('click', '.BurgerMenuIcon', function () {
+    $('.BurgerMenuIcon, .header__menu, .header__phone').toggleClass('open');
   });
 });

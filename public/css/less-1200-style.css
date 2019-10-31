@@ -5,10 +5,6 @@
         margin-left: 100px;
     }
 
-    .header__menu {
-        display: none;
-    }
-
     .header__content {
         max-width: initial;
     }
@@ -19,7 +15,8 @@
     }
 
     .header__logo {
-        margin-left: 30px;
+        margin-left: 41px;
+        margin-right: 10px;
         flex: 1;
     }
 
@@ -28,7 +25,14 @@
     }
 
     .header__phone {
+        visibility: hidden;
         margin-right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header__phone.open {
+        display: block;
+        visibility: visible;
     }
 
     .category-menu {
@@ -134,6 +138,7 @@
 
     .benefits .grey-line {
         display: none;
+        visibility: hidden;
     }
 
     .orange-header-root {
@@ -186,6 +191,7 @@
 
     .services__content h2 {
         display: none;
+        visibility: hidden;
     }
 
     .services.services__left .services__content,
@@ -269,6 +275,7 @@
 
     .partners__image__wide {
         display: none;
+        visibility: hidden;
     }
 
     .offices {
@@ -346,6 +353,7 @@
 
     .footer__col-l {
         display: none;
+        visibility: hidden;
     }
 
     .footer__col-m {
@@ -401,5 +409,52 @@
 
     button {
         outline: none;
+    }
+
+    .header__menu {
+        opacity: 0;
+        display: flex;
+        visibility: hidden;
+        position: absolute;
+        top: 113px;
+        width: 100%;
+        border-top: 2px solid #E56F1E;
+        height: 100px;
+        z-index: 1;
+        background: #fff;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(40px);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header__menu.open {
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .header__menu .header__menu__item:nth-child(2),
+    .header__menu .header__menu__item:nth-child(3),
+    .header__menu .header__menu__item:nth-child(4),
+    .header__menu .header__menu__item:nth-child(5) {
+        position: static;
+    }
+
+    .header__phone {
+        display: block;
+        visibility: visible;
+        transition: none;
+    }
+
+    .popup {
+        max-width: 500px;
+        min-width: 320px;
+    }
+
+    .popup__text {
+        font-size: 26px;
+        line-height: 36px;
     }
 }

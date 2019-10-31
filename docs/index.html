@@ -17,7 +17,7 @@
     <meta name="msapplication-TileImage" content="mstile-144x144.png?v=2bBKqOwNGA">
     <meta name="msapplication-config" content="browserconfig.xml?v=2bBKqOwNGA">
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -48,7 +48,12 @@
                 <a href="#offices" class="header__menu__item">Адреса офисов</a>
             </div>
             <div class="header__phone"><a href="tel:+78125646405">+7&nbsp;812&nbsp;564 64 05</a></div>
-            <div class="header__burger"></div>
+            <div class="header__burger BurgerMenuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
     <section class="category-menu">
@@ -555,6 +560,36 @@
         </div>
     </footer>
 </main>
+
+<div class="modal">
+    <div class="overlay">
+        <div class="popup">
+            <div class="popup__content popup__content__success">
+                <div class="popup__cross"></div>
+                <div class="popup__image"></div>
+                <div class="popup__text">
+                    Ваша заявка успешно отправлена.<br />Наши специалисты свяжутся с&nbsp;вами в&nbsp;ближайшее время.
+                </div>
+            </div>
+
+            <div class="popup__content popup__content__fail">
+                <div class="popup__cross"></div>
+                <div class="popup__image"></div>
+                <div class="popup__text">
+                    Что-то пошло не&nbsp;так.<br />При отправке данных произошла ошибка. Пожалуйста, повторите отправку.
+                </div>
+            </div>
+
+            <div class="popup__content popup__content__pending">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+                <div class="popup__text">Отправка заявки...</div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
