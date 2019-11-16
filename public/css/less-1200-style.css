@@ -61,7 +61,7 @@
         height: 395px;
     }
 
-    .utp-1 h2 {
+    .utp-1 h1 {
         top: 163px;
         left: 40px;
         line-height: 58px;
@@ -339,8 +339,9 @@
     #map {
         width: 95vw;
         height: 442px;
-        margin-top: 122px;
+        margin-top: 142px;
     }
+
 
     footer {
         width: 100%;

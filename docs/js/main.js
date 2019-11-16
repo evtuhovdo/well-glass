@@ -15,8 +15,8 @@ window.addEventListener('resize', handleWindow);
 
 function initMap() {
   var point = {
-    lat: 59.918326,
-    lng: 30.346413,
+    lat: 60.050607,
+    lng: 30.447740,
   };
 
   var map = new google.maps.Map(

@@ -227,7 +227,7 @@ body, html {
     max-width: 1440px;
 }
 
-.utp-1 h2 {
+.utp-1 h1 {
     position: absolute;
     left: 130px;
     top: 255px;
@@ -548,9 +548,15 @@ h3.orange-header {
 }
 
 #map {
-    margin-top: 112px;
+    margin-top: 142px;
     width: 1180px;
     height: 442px;
+}
+
+.office-name {
+  position: absolute;
+  top: 95px;
+  left: 0;
 }
 
 footer {
