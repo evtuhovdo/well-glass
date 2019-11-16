@@ -5,6 +5,7 @@
     url('../fonts/HelveticaNeue.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Helvetica Neue';
@@ -13,6 +14,7 @@
     url('../fonts/HelveticaNeue-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Helvetica Neue';
@@ -21,4 +23,5 @@
     url('../fonts/HelveticaNeue-Medium.woff') format('woff');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }

@@ -102,6 +102,22 @@ function sendOrder(name, _phone, service, form) {
 }
 
 $(function () {
+  var swiper = new Swiper('.swiper-container', {
+    spaceBetween: 10,
+    slidesPerView: 'auto',
+    loop: true,
+    grabCursor: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: true,
+    },
+    centeredSlides: true,
+  });
+
   $(document).on('click', 'a[href^="#"]', function (event) {
     // event.preventDefault();
     var link = $.attr(this, 'href');

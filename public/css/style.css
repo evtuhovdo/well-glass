@@ -4,6 +4,8 @@
 
 :root {
     --scroll-bar: 8px;
+    --swiper-navigation-color:#096b61;
+    --swiper-theme-color: #096b61;
 }
 
 body {
@@ -456,12 +458,26 @@ h3.orange-header {
 .work-items {
     min-width: calc(100vw - var(--scroll-bar));
     width: calc(100vw - var(--scroll-bar));
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     overflow: auto;
     margin-top: 115px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .work-items::-webkit-scrollbar {
@@ -477,12 +493,14 @@ h3.orange-header {
     display: flex;
     flex-direction: column;
     margin: 0 10px;
+    align-items: center;
 }
 
 .work-item__image {
     width: 260px;
     height: 260px;
     padding: 10px;
+    pointer-events: none;
 }
 
 .work-item__text {
