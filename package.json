@@ -7,7 +7,7 @@
     "gulp-clean-css": "^4.2.0",
     "gulp-postcss": "^8.0.0",
     "gulp-uglify": "^3.0.2",
-    "postcss": "^7.0.21"
+    "postcss": "^7.0.36"
   },
   "scripts": {
     "build": "gulp build",
